@@ -901,6 +901,15 @@ By default, the RPC is sent to the owner of the object.
   - name: RPC_EmptyProcessed
 ```
 
+### Status
+
+```yaml
+# Assign a status to a Player or MonsterAI
+objectRpc:  
+  - name: RPC_Damage
+    1: hit, status="GP_Eikthyr (Boss Buff)| LightningResistance (Portions Buff)| 
+```
+
 ### Talker
 
 ```yaml
